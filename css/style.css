@@ -1,0 +1,119 @@
+body,html{
+    height:100%;
+    margin: 0;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    color:#666;
+}
+
+.datos{
+    background-image: url('../imagenes/ela.jpg');
+    min-height: 100%;
+}
+
+.datos2{
+    background-image: url('../imagenes/samus.jpg');
+    min-height: 600px;
+}
+
+.datos, .datos2{
+    position: relative;
+    opacity: 0.70;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.bold{
+    font-family: bold;
+    color: white;
+}
+
+.ptext{
+    position:absolute;
+    top:30%;
+    width: 100%;
+    text-align: center;
+    color: black;
+    font-size: 20px;
+    letter-spacing: 8px;
+}
+
+.ptext .border{
+    background-color: grey;
+    color: white;
+    padding: 20px;
+}
+
+.ptext .border.trans{
+    background-color: transparent;
+}
+
+@media(max-width:568px){
+    .datos, .datos2{
+        background-attachment: scroll;
+    }
+}
+
+.section{
+    padding: 25px 50px;
+}
+
+.section-lighter{
+    background-color: #d5e1df;
+}
+
+.pic{
+    transform: rotate(90deg); /*cambiar orientacion de la imagen*/
+    border-radius: 100%; /*hacer imagen redonda*/
+    height: 150px;
+    width: 200px;
+}
+
+.vertical{
+    border-left: 5px solid black;
+    height: 747px;
+    position: absolute;
+    left: 50%;
+    margin-left: -3px;
+    top: 0;
+}
+
+.rightText{
+    position: relative;
+    bottom: 210px;
+    float: right;
+}
+
+#habilidades{
+    font-family: "Lato",sans-serif;
+    border-collapse: collapse;
+    width: 50%;
+    margin: 0 auto;
+}
+
+#habilidades td, #habilidades th{
+    border: 1px solid black;
+    padding: 8px;
+}
+
+#habilidades th{
+    padding-top: 8px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: orange;
+    color: white;
+}
+
+
+.section-gray{
+    background-color:white;
+}
+
+a:visited{
+    color:purple;
+}
+
+
